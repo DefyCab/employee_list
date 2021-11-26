@@ -21,7 +21,7 @@ const EmployeeModal = ({ id }) => {
       onClose={() => setOpen(false)}
       onOpen={() => setOpen(true)}
       open={open}
-      trigger={<Button className="view-button">Show Modal</Button>}
+      trigger={<Button inverted color="orange" className="view-button">Show Modal</Button>}
     >
       <Modal.Content image data-cy="modal-container">
         <Image size="medium" src={employee.avatar} wrapped />
