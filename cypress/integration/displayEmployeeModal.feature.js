@@ -18,7 +18,7 @@ describe("Display of employee modal", () => {
       cy.get("[data-cy=modal-container]").within(() => {
         cy.get(".image").should("exist");
         cy.get(".header").should("exist");
-        cy.get(".email").should("contain", "george.bluth@reqres.in");
+        cy.get(".email").should("exist");
       });
     });
   });

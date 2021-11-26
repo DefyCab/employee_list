@@ -31,7 +31,7 @@ describe("Visiting the application, a user", () => {
     it("is expected to see second employee", () => {
       cy.get("#2").within(() => {
         cy.get(".image").should("exist");
-        cy.get(".header").should("contain", "Anna Klavina");
+        cy.get(".header").should("contain", "Janet Weaver");
         cy.get(".description").should("contain", "janet.weaver@reqres.in");
       });
     });
@@ -39,7 +39,7 @@ describe("Visiting the application, a user", () => {
     it("is expected to see third employee", () => {
       cy.get("#3").within(() => {
         cy.get(".image").should("exist");
-        cy.get(".header").should("contain", "John Something");
+        cy.get(".header").should("contain", "Emma Wong");
         cy.get(".description").should("contain", "emma.wong@reqres.in");
       });
     });
@@ -47,7 +47,7 @@ describe("Visiting the application, a user", () => {
     it("is expected to see third employee", () => {
       cy.get("#4").within(() => {
         cy.get(".image").should("exist");
-        cy.get(".header").should("contain", "Ieva Voilaa");
+        cy.get(".header").should("contain", "Eve");
         cy.get(".description").should("contain", "eve.holt@reqres.in");
       });
     });
