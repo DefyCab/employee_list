@@ -1,6 +1,6 @@
-import React from "react";
-import { List, Image } from "semantic-ui-react";
-import EmployeeModal from "./EmployeeModal";
+import React from 'react'
+import { List, Image } from 'semantic-ui-react'
+import EmployeeModal from './EmployeeModal'
 
 const EmployeeList = ({ employee }) => {
   return (
@@ -16,7 +16,7 @@ const EmployeeList = ({ employee }) => {
         </List.Content>
       </List.Item>
     </List>
-  );
-};
+  )
+}
 
-export default EmployeeList;
+export default EmployeeList
