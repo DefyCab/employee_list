@@ -38,15 +38,8 @@
       "first_name": "Charles",
       "last_name": "Morris",
       "avatar": "https://reqres.in/img/faces/5-image.jpg"
-    },
-    {
-      "id": 6,
-      "email": "tracey.ramos@reqres.in",
-      "first_name": "Tracey",
-      "last_name": "Ramos",
-      "avatar": "https://reqres.in/img/faces/6-image.jpg"
     }
-  ],
+    ],
   "support": {
     "url": "https://reqres.in/#support-heading",
     "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
